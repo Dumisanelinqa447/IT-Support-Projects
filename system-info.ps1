@@ -11,3 +11,4 @@ Write-Host "OS Version: " $os.Caption
 
 Write-Host "`nLocal Users:"
 Get-LocalUser | Select Name, Enabled
+Get-Process | Select-Object -First 5
