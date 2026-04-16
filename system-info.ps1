@@ -1,3 +1,4 @@
+#Powershell
 # System Information Script
 # This script retrieves system details such as:
 # - Computer name
