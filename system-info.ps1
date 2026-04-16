@@ -1,3 +1,12 @@
+# System Information Script
+# This script retrieves system details such as:
+# - Computer name
+# - Logged-in user
+# - Operating system
+# - Local users
+# - Running processes
+# Used for troubleshooting and system diagnostics in IT support.
+
 Write-Host "==== SYSTEM INFORMATION ===="
 
 $computer = $env:COMPUTERNAME
