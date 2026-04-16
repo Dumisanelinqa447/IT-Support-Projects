@@ -1,3 +1,9 @@
+#Python
+# File Organizer Script
+# This script automatically organizes files into folders (Images, Documents)
+# Helps improve file management and efficiency
+# Demonstrates basic Python automation skills
+
 import os
 import shutil
 
