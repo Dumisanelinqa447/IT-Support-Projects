@@ -2,7 +2,11 @@ import os
 import shutil
 
 path = "C:/Users/YourName/Downloads"
+if not os.path.exists(path + "/Images"):
+    os.makedirs(path + "/Images")
 
+if not os.path.exists(path + "/Documents"):
+    os.makedirs(path + "/Documents")
 files = os.listdir(path)
 
 for file in files:
